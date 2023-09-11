@@ -188,12 +188,12 @@ function App() {
           <motion.p variants={fadeInUp}>Enviamos um email para ti contendo um guia prática de como utilizar a aplicação 🤗</motion.p>
 
           <motion.div className="btn_group" variants={stagger}>
-            <motion.div className="btn btn_primary" variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Hire Me
+            <motion.div className="btn btn_primary" variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Baixar
               <IconContext.Provider value={{color:"#14da8f", size:"25px"}}>
                 <IoChevronForwardCircle/>
               </IconContext.Provider>
             </motion.div>
-            <motion.div className="btn btn_secondary" variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Live Chat</motion.div>
+            <motion.div className="btn btn_secondary" variants={btnGroup} whileHover={{scale:1.05}} whileTap={{scale:0.95}}>Suporte</motion.div>
           </motion.div>
 
 
